@@ -52,6 +52,16 @@ gulp.task('vendor', gulp.series(function(done) {
     ])
     .pipe(gulp.dest('./vendor/simple-line-icons/css'))
 
+  gulp.src([
+      './node_modules/html5-device-mockups/dist/**',
+    ])
+    .pipe(gulp.dest('./vendor/html5-device-mockups/css'))
+
+  gulp.src([
+      './node_modules/html5-device-mockups/device-mockups/**',
+    ])
+    .pipe(gulp.dest('./vendor/html5-device-mockups/device-mockups'))
+
   done();
 
 }));

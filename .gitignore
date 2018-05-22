@@ -3,6 +3,3 @@ bower_components
 vendor/
 *.min.css
 *.min.js
-
-# temporary
-device-mockups
