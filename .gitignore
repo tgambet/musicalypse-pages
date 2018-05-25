@@ -4,3 +4,4 @@ vendor/
 *.min.css
 *.min.js
 css/
+dist/
