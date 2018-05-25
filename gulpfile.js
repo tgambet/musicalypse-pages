@@ -110,7 +110,7 @@ gulp.task('js:minify', gulp.series(function() {
 gulp.task('js', gulp.series(['js:minify']));
 
 // Default task
-gulp.task('default', gulp.parallel(['css', 'js', 'vendor']));
+gulp.task('default', gulp.series(['css', 'js', 'vendor']));
 
 // Configure the browserSync task
 gulp.task('browserSync', gulp.series(function() {
