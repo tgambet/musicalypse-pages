@@ -19,6 +19,10 @@ header.masthead {
             font-size: 30px;
         }
     }
+    img {
+      width: 100%;
+      border: 1px solid $theme-primary;
+    }
     .device-container {
         max-width: 325px;
         margin-right: auto;
