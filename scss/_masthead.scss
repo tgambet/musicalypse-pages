@@ -19,6 +19,9 @@ header.masthead {
             font-size: 30px;
         }
     }
+    .btn {
+      @include alt-font;
+    }
     img {
       width: 100%;
       border: 1px solid $theme-primary;

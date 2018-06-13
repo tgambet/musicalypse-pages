@@ -5,15 +5,33 @@ section.contact {
         margin-top: 0;
         margin-bottom: 25px;
     }
+    h3 {
+      margin-top: -2rem;
+      margin-bottom: 2rem;
+    }
     ul {
       list-style: none;
       padding: 0;
       margin: 0;
     }
-    a {
+    .card {
+      margin: auto;
+      margin-bottom: 2rem;
+      width: 18rem;
+    }
+    .card:hover {
+      box-shadow: 0 0 10px 0px rgba(0,0,0,0.5);
+    }
+    .card.donate {
+      cursor: pointer;
+    }
+    h5 {
+      font-weight: bold;
+    }
+    .card a {
       color: black;
-      &:hover {
-        color: black;
-      }
+    }
+    .card a:hover {
+      text-decoration: none;
     }
 }

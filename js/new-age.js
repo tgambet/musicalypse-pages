@@ -39,4 +39,9 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  // Submit the donation form when the card is clicked
+  $('.card.donate').click(function () {
+    $('.card.donate form').submit();
+  });
+
 })(jQuery); // End of use strict

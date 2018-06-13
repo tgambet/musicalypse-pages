@@ -187,11 +187,45 @@
     <section class="contact bg-primary" id="contact">
       <div class="container">
         <h2>You like Musicalypse?</h2>
-        <ul>
-          <li><a href="">Make a donation.</a></li>
-          <li><a href="https://www.microsoft.com/fr-fr/store/apps/windows?icid=CNavAppsWindowsApps" target="_blank">Buy the Windows version on the Microsoft Store.</a></li>
-          <li><a href="https://github.com/tgambet/musicalypse" target="_blank">Join the development on Github.</a></li>
-        </ul>
+        <h3>Support us!</h3>
+        <div class="row">
+          <div class="col-sm">
+            <div class="card donate">
+              <div class="card-body">
+                <h5 class="card-title">Donate</h5>
+                <p class="card-text">Make a donation through Paypal.</p>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="E5XHFMS2RAYJN">
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card">
+              <a href="https://www.microsoft.com/fr-fr/store/apps/windows?icid=CNavAppsWindowsApps" target="_blank">
+                <div class="card-body">
+                  <h5 class="card-title">Buy</h5>
+                  <p class="card-text">Buy Musicalypse on the Microsoft store.</p>
+                  <img src="img/microsoft.png" alt="Microsoft Store" class="microsoft-logo" height="32">
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card">
+              <a href="https://github.com/tgambet/musicalypse" target="_blank">
+                <div class="card-body">
+                  <h5 class="card-title">Develop</h5>
+                  <p class="card-text">Join Musicalypse development on Github.</p>
+                  <img src="img/github.png" alt="GitHub" class="github-logo" height="32">
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
