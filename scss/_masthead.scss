@@ -22,9 +22,16 @@ header.masthead {
     .btn {
       @include alt-font;
     }
-    img {
-      width: 100%;
+    .logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 80%;
+      }
     }
+
     .device-container {
         max-width: 325px;
         margin-right: auto;
