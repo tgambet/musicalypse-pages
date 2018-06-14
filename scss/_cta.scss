@@ -1,10 +1,11 @@
 // Styling for the call to action section
 section.cta {
-    position: relative;
-    padding: 256px 0;
-    background-image: url('../img/musicalypse-native-full.png');
-    background-position: center;
-    @include background-cover;
+    // position: relative;
+    // padding: 256px 0;
+    // background-image: url('../img/musicalypse-native-full.png');
+    // background-position: center;
+    min-height: 100vh;
+    // @include background-cover;
     .cta-content {
         position: relative;
         z-index: 1;
@@ -29,4 +30,12 @@ section.cta {
         height: 100%;
         background-color: fade-out(black, .5);
     }
+}
+
+section.images {
+  padding: 80px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
