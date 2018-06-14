@@ -44,4 +44,12 @@
     $('.card.donate form').submit();
   });
 
+  // Carousels buttons
+  $('.features .button').click(function() {
+    $('.carousel.iphone').carousel('next');
+  });
+  $('.images .button').click(function() {
+    $('.carousel.ipad').carousel('next');
+  });
+
 })(jQuery); // End of use strict
