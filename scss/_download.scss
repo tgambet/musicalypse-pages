@@ -23,6 +23,12 @@ section.download {
             @media(min-width: 768px) {
 
             }
+            &:hover {
+              box-shadow: 0 0 10px 0px rgba(0,0,0,0.5);
+            }
+        }
+        .card-title {
+          font-weight: 500;
         }
     }
     @media(min-width: 768px) {
