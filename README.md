@@ -1,6 +1,6 @@
-# [Musicalypse](https://www.musicalypse.com/)
+# [Musicalypse](https://musicalypse.creasource.net/)
 
-[Musicalypse](https://www.musicalypse.com/) is an HTML5 audio player for the desktop and the web created by [Thomas Gambet](https://github.om/tgambet). This repository is the presentational website of the software.
+[Musicalypse](https://musicalypse.creasource.net/) is an HTML5 audio player for the desktop and the web created by [Thomas Gambet](https://github.om/tgambet). This repository is the presentational website of the software.
 
 ## Copyright and License
 
