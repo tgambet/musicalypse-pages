@@ -1,10 +1,10 @@
 # [Musicalypse](https://musicalypse.creasource.net/)
 
-[Musicalypse](https://musicalypse.creasource.net/) is an HTML5 audio player for the desktop and the web created by [Thomas Gambet](https://github.om/tgambet). This repository is the presentational website of the software.
+[Musicalypse](https://musicalypse.creasource.net/) is an HTML5 audio player for the desktop and the web created by [Thomas Gambet](https://github.com/tgambet). This repository is the presentational website of the software.
 
 ## Contributors
 
-Special thanks to @nunojesus for the logo design.
+Special thanks to [Nuno Jesus](https://github.com/nunojesus) for the logo design.
 
 ## Copyright and License
 
