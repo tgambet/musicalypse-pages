@@ -100,9 +100,15 @@ gulp.task('img', gulp.series(function() {
     ]).pipe(gulp.dest('./dist/img'))
 }));
 
+gulp.task('logo', gulp.series(function() {
+  return gulp.src([
+      './logo/**/*'
+    ]).pipe(gulp.dest('./dist/logo'))
+}));
+
 // Default task
-gulp.task('default', gulp.parallel(['vendor', 'css', 'js', 'index', 'img']));
-gulp.task('build', gulp.parallel(['vendor', 'css', 'js', 'index', 'img']));
+gulp.task('default', gulp.parallel(['vendor', 'css', 'js', 'index', 'img', 'logo']));
+gulp.task('build', gulp.parallel(['vendor', 'css', 'js', 'index', 'img', 'logo']));
 
 // Configure the browserSync task
 gulp.task('browserSync', gulp.series(function() {
