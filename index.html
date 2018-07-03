@@ -61,12 +61,12 @@
         <div class="row h-100">
           <div class="col-lg-6 my-auto">
             <div class="header-content mx-auto">
-              <h1 class="mb-5">Musicalypse is a new generation audio player and streaming server. Listen to your music on any device, anywhere!</h1>
+              <h1 class="mb-5">Musicalypse is a modern audio player built with Web technologies. Listen to your music on any device, anywhere!</h1>
               <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Download for Free!</a>
             </div>
           </div>
           <div class="col-lg-6 my-auto logo">
-            <img src="logo/logo_grey_optimized.svg">
+            <img src="logo/logo_grey.svg">
             <!-- <div class="device-wrapper">
               <div class="device" data-device="iPhone7" data-orientation="portrait" data-color="black">
                 <div class="screen">
@@ -169,10 +169,71 @@
         <div class="row">
           <div class="col-md-10 mx-auto">
             <h2 class="section-heading">Download</h2>
-            <p class="main-paragraph">Musicalypse is available on all desktop plateforms as a native application or as an online application installable on a server. Download now to get started.</p>
+            <p class="main-paragraph">
+              Musicalypse is available on all desktop plateforms as a native
+              application or as an online application installable on a server.
+              If you are on Windows 10 you can also <a href="https://www.microsoft.com/store/apps/9MVSZGK1F230" target="_blank">buy Musicalypse on the Microsoft Store</a>.
+            </p>
           </div>
           <div class="col-md-10 mx-auto cards">
-            <div class="card">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">OS</th>
+                  <th scope="col" title="Embedded Java Runtime Environment">JRE</th>
+                  <th scope="col">Size (MB)</th>
+                  <th scope="col">Link</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>Windows (64bits)</th>
+                  <td>Yes</td>
+                  <td>105</td>
+                  <td>Soon**</td>
+                </tr>
+                <tr>
+                  <th>Windows (64bits)*</th>
+                  <td>No</td>
+                  <td>57</td>
+                  <td>Soon**</td>
+                </tr>
+                <tr>
+                  <th>Windows (32bits)</th>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>Soon**</td>
+                </tr>
+                <!-- <tr>
+                  <th>Windows (32 bits)*</th>
+                  <td>No</td>
+                  <td>-</td>
+                  <td>Soon**</td>
+                </tr> -->
+                <tr>
+                  <th>Linux</th>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>Soon**</td>
+                </tr>
+                <tr>
+                  <th>Linux (server)</th>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>Soon**</td>
+                </tr>
+                <tr>
+                  <th>MacOS</th>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>Soon**</td>
+                </tr>
+              </tbody>
+            </table>
+
+
+
+            <!-- <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Server (Linux)*</h5>
                 <p class="card-text">Install Musicalypse on a server and start streaming your music to your computer, phone, or tablet.</p>
@@ -199,11 +260,19 @@
                 <p class="card-text">Install as a native application on Linux.</p>
                 <button href="#" class="btn btn-primary disabled">Coming Soon</button>
               </div>
-            </div>
+            </div> -->
+
           </div>
-          <div  class="col-md-10 mx-auto">
+          <div class="col-md-10 mx-auto releases">
+            <span>Check <a href="https://github.com/tgambet/musicalypse/releases" target="_blank">all releases</a> on Github.</span>
+          </div>
+          <div class="col-md-10 mx-auto">
             <span>*Requires <a href="https://www.java.com/fr/download/" target="_blank">Java</a>.</span>
           </div>
+          <div class="col-md-10 mx-auto">
+            <span>**Want to see it available faster? <a href="https://github.com/tgambet/musicalypse" target="_blank">Join development</a> on Github.</span>
+          </div>
+
         </div>
       </div>
     </section>
@@ -256,7 +325,7 @@
           </div>
           <div class="col-sm">
             <div class="card">
-              <a href="https://www.microsoft.com/fr-fr/store/apps/windows?icid=CNavAppsWindowsApps" target="_blank">
+              <a href="https://www.microsoft.com/store/apps/9MVSZGK1F230" target="_blank">
                 <div class="card-body">
                   <h5 class="card-title">Buy</h5>
                   <p class="card-text">Buy Musicalypse on the Microsoft store.</p>

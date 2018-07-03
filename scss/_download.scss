@@ -31,6 +31,15 @@ section.download {
           font-weight: 500;
         }
     }
+    .table td, .table th {
+      border-top: 1px solid rgba(0,0,0,0.2);
+    }
+    .table thead th {
+      border-bottom: 2px solid rgba(0,0,0,0.2);
+    }
+    .releases {
+      margin-bottom: 1rem;
+    }
     a {
       color: #212529;
       text-decoration: underline;
