@@ -120,7 +120,7 @@ gulp.task('browserSync', gulp.series(function() {
 }));
 
 // Dev task
-gulp.task('dev', gulp.parallel(['css', 'js', 'browserSync'], function() {
+gulp.task('dev', gulp.parallel(['index', 'css', 'js', 'img', 'logo', 'browserSync'], function() {
   gulp.watch('./scss/*.scss', gulp.series('css'));
   gulp.watch('./js/*.js', gulp.series('js'));
   gulp.watch('./*.html', gulp.series('index'));
