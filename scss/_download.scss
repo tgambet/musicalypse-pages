@@ -1,7 +1,8 @@
 // Styling for the download section
 section.download {
     position: relative;
-    padding: 100px 0;
+    padding: 50px 0;
+    background: #8bc34a;
     h2 {
         font-size: 50px;
         margin-top: 0;
@@ -9,41 +10,47 @@ section.download {
     .main-paragraph {
       margin-bottom: 50px;
     }
-    .cards {
+    .dl-cards {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+    .dl-card {
+      width: 100%;
+      max-width: 450px;
+      padding: 1rem;
+      .inner {
+        height: 250px;
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        .card {
-            width: 350px;
-            margin-bottom: 4rem;
-            .btn {
-              text-transform: none;
-            }
-            @media(min-width: 768px) {
-
-            }
-            &:hover {
-              box-shadow: 0 0 10px 0px rgba(0,0,0,0.5);
-            }
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        color: #303030;
+        padding: 2rem;
+        border-radius: 10px;
+        &:hover {
+          box-shadow: 0 0 10px 0px rgba(0,0,0,0.5);
         }
-        .card-title {
-          font-weight: 500;
-        }
-    }
-    .table td, .table th {
-      border-top: 1px solid rgba(0,0,0,0.2);
-      vertical-align: middle;
-    }
-    .table thead th {
-      border-bottom: 2px solid rgba(0,0,0,0.2);
+      }
+      img {
+        margin-bottom: 2rem;
+      }
+      a {
+        color: black;
+        text-decoration: underline;
+      }
     }
     .releases {
-      margin-bottom: 1rem;
+      margin-top: 1rem;
     }
-    .download {
-      font-weight: bold;
-      text-decoration: none;
+    @media(min-width: 992px) {
+      .dl-card {
+        width: 50%;
+      }
     }
     a {
       color: #212529;
