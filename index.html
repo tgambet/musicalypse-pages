@@ -167,13 +167,15 @@
               <div class="dl-card">
                 <div class="inner">
                   <img src="img/logo-windows.svg" alt="Windows" height="100"/>
-                  <a href="https://github.com/tgambet/musicalypse/releases/download/v0.5.1/Musicalypse-0.5.1-x64.exe">Musicalypse 0.5.1 for Windows (64bits)</a>
+                  <a href="https://github.com/tgambet/musicalypse/releases/download/v0.5.1/Musicalypse-0.5.1-x64.exe"
+                     onclick="trackEvent('Downloads', 'Windows-x64', 'Musicalypse-0.5.1-x64.exe')">Musicalypse 0.5.1 for Windows (64bits)</a>
                 </div>
               </div>
               <div class="dl-card">
                 <div class="inner">
                   <img src="img/logo-linux.svg" alt="Linux" height="100"/>
-                  <a href="https://github.com/tgambet/musicalypse/releases/download/v0.5.1/Musicalypse-0.5.1-x64.AppImage">Musicalypse 0.5.1 for Linux (64bits)</a>
+                  <a href="https://github.com/tgambet/musicalypse/releases/download/v0.5.1/Musicalypse-0.5.1-x64.AppImage"
+                     onclick="trackEvent('Downloads', 'Linux-x64', 'Musicalypse-0.5.1-x64.AppImage')">Musicalypse 0.5.1 for Linux (64bits)</a>
                 </div>
               </div>
               <div class="dl-card">
@@ -185,7 +187,12 @@
               <div class="dl-card">
                 <div class="inner">
                   <img src="img/logo-server.svg" alt="Server" height="100"/>
-                  <span>Musicalypse 0.5.1 Server* (<a href="https://github.com/tgambet/musicalypse/releases/download/v0.5.1/Musicalypse-0.5.1-server.zip">zip</a>, <a href="https://github.com/tgambet/musicalypse/releases/download/v0.5.1/Musicalypse-0.5.1-server.tgz">tgz</a>)<span>
+                  <span>Musicalypse 0.5.1 Server* (
+                    <a href="https://github.com/tgambet/musicalypse/releases/download/v0.5.1/Musicalypse-0.5.1-server.zip"
+                       onclick="trackEvent('Downloads', 'Server-zip', 'Musicalypse-0.5.1-server.zip')">zip</a>,
+                    <a href="https://github.com/tgambet/musicalypse/releases/download/v0.5.1/Musicalypse-0.5.1-server.tgz"
+                       onclick="trackEvent('Downloads', 'Server-tgz', 'Musicalypse-0.5.1-server.tgz')">tgz</a>)
+                  <span>
                 </div>
               </div>
             </div>
@@ -251,7 +258,8 @@
           </div>
           <div class="col-sm">
             <div class="card">
-              <a href="https://www.microsoft.com/store/apps/9MVSZGK1F230" target="_blank">
+              <a href="https://www.microsoft.com/store/apps/9MVSZGK1F230"
+                 onclick="trackEvent('Support', 'Buy')" target="_blank">
                 <div class="card-body">
                   <h5 class="card-title">Buy</h5>
                   <p class="card-text">Buy Musicalypse on the Microsoft store.</p>
@@ -262,7 +270,8 @@
           </div>
           <div class="col-sm">
             <div class="card">
-              <a href="https://github.com/tgambet/musicalypse" target="_blank">
+              <a href="https://github.com/tgambet/musicalypse"
+                 onclick="trackEvent('Support', 'Develop')" target="_blank">
                 <div class="card-body">
                   <h5 class="card-title">Develop</h5>
                   <p class="card-text">Join Musicalypse development on Github.</p>

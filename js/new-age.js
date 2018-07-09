@@ -39,8 +39,9 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-  // Submit the donation form when the card is clicked
+  // Submit the donation form when the ccard is clicked
   $('.card.donate').click(function () {
+    trackEvent('Support', 'Donate');
     $('.card.donate form').submit();
   });
 
@@ -51,5 +52,12 @@
   $('.images .button').click(function() {
     $('.carousel.ipad').carousel('next');
   });
+
+  window.trackEvent = function(category, action, label) {
+    gtag('event', action, {
+      'event_category': category,
+      'event_label': label
+    });
+  }
 
 })(jQuery); // End of use strict
